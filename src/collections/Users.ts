@@ -8,6 +8,7 @@ const Users: CollectionConfig = {
   },
   access: {
     read: () => true,
+    update: () => true,
   },
   fields: [
     // Email added by default

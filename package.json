@@ -13,9 +13,11 @@
     "generate:types": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:types"
   },
   "dependencies": {
-    "payload": "^1.0.30",
+    "@aws-sdk/client-s3": "^3.160.0",
+    "@payloadcms/plugin-cloud-storage": "^1.0.8",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "payload": "^1.0.30"
   },
   "devDependencies": {
     "@types/express": "^4.17.9",
